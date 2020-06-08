@@ -12,6 +12,8 @@ git clone https://github.com/crumpfhuber/docker-clionremote.git
 ssh-keygen -t ed25519
 ```
 
+![Screenshot 3](screenshot2.png)
+
 #### Step 3: Build Docker Container
 ```
 docker build -f ./Dockerfile -t crumpfhuber/clion-remote .
