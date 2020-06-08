@@ -6,10 +6,6 @@ RUN apt-get update
 RUN apt-get install -y ssh build-essential gcc g++ gdb clang cmake rsync tar python
 RUN apt-get clean -y
 
-RUN echo '#!/bin/bash' >> /bin/presstoexit.sh
-RUN echo 'read -n 1 -p "Press any key to exit" key' >> /bin/presstoexit.sh
-RUN chmod 777 /bin/presstoexit.sh
-
 RUN adduser --disabled-password	clionremote
 
 RUN mkdir /etc/ssh/keys/
