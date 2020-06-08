@@ -4,7 +4,7 @@
 
 #### Step 1: Clone this Repostory
 ```
-https://github.com/crumpfhuber/docker-clionremote
+git clone https://github.com/crumpfhuber/docker-clionremote.git
 ```
 
 #### Step 2: Clone this Repository
@@ -27,4 +27,4 @@ docker build -f ./Dockerfile -t crumpfhuber/clion-remote .
 docker run -d --name clion-remote --hostname="clion-remote" -p 25850:22 --restart=always -it crumpfhuber/clion-remote:latest
 ```
 
-### Step 6: Add Remote Host to Clion Toolchains
+#### Step 6: Add Remote Host to Clion Toolchains
