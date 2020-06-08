@@ -2,7 +2,7 @@
 
 ## Installation Guide
 
-#### Step 1: Clone this Repostory
+#### Step 1: Clone or download this Repostory
 ```
 git clone https://github.com/crumpfhuber/docker-clionremote.git
 ```
@@ -12,7 +12,7 @@ git clone https://github.com/crumpfhuber/docker-clionremote.git
 ssh-keygen -t ed25519
 ```
 
-![Screenshot 3](screenshot3.png)
+![Screenshot](screenshot3.png)
 
 #### Step 3: Build Docker Container
 ```
@@ -26,5 +26,5 @@ docker run -d --name clion-remote --hostname="clion-remote" -p 25850:22 --restar
 
 #### Step 5: Add Remote Host to Clion Toolchains
 
-![Screenshot 2](screenshot2.png)
-![Screenshot 1](screenshot1.png)
+![Screenshot](screenshot2.png)
+![Screenshot](screenshot1.png)
