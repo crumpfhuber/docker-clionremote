@@ -1,4 +1,4 @@
-# Clion Remote Toolchain
+# CLion Remote Toolchain
 
 ## Installation Guide
 
@@ -24,7 +24,7 @@ docker build -f ./Dockerfile -t crumpfhuber/clion-remote .
 docker run -d --name clion-remote --hostname="clion-remote" -p 25850:22 --restart=always -it crumpfhuber/clion-remote:latest
 ```
 
-#### Step 5: Add Remote Host to Clion Toolchains
+#### Step 5: Add Remote Host to CLion Toolchains
 
 ![Screenshot](screenshot2.png)
 ![Screenshot](screenshot1.png)
