@@ -1,6 +1,6 @@
 # Clion Remote Toolchain
 
-### Installation
+## Installation Guide
 
 #### Step 1: Clone this Repostory
 ```
