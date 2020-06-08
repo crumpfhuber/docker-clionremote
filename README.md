@@ -1,4 +1,4 @@
-# CLion Remote Toolchain
+# Docker-based CLion Remote Toolchain
 
 ## Installation Guide
 
