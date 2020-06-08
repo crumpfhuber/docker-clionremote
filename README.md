@@ -7,7 +7,7 @@
 git clone https://github.com/crumpfhuber/docker-clionremote.git
 ```
 
-#### Step 2: Create SSH Key in the same Directory as the Repository
+#### Step 2: Create SSH Key in the Repository Directory
 ```
 ssh-keygen -t ed25519
 ```
