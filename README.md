@@ -8,7 +8,7 @@ git clone https://github.com/crumpfhuber/docker-clionremote.git
 ```
 
 #### Step 2: Create SSH Key in the Repository Directory
-> The Public File has to be namend `ed25519.pub`!!
+> The Public SSH KEy File has to be namend `ed25519.pub`!!
 ```
 ssh-keygen -t ed25519
 ```
