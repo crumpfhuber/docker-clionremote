@@ -28,3 +28,6 @@ docker run -d --name clion-remote --hostname="clion-remote" -p 25850:22 --restar
 ```
 
 #### Step 6: Add Remote Host to Clion Toolchains
+
+![screenshot1.png](Screenshot 1)
+![screenshot2.png](Screenshot 2)
